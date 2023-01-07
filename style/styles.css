@@ -1,7 +1,9 @@
 *{
+    list-style: none;
     padding: 0;
     margin: 0;
 }
+
 
 
 /* Header */
@@ -51,18 +53,22 @@ main{
 
 }
 
+
 .failure{
     gap: 87px;
 display: flex;
 }
 
-.failure-image{
-    
-    background-blend-mode: color;
-    background-color: rgb(4, 16, 16);
+
+
+.failure-topic{
+    padding-top: 150px;
+
 
 }
 .list{
+    padding-top: 17px;
+    display:flex;
     font-family: 'Work Sans';
 font-style: normal;
 font-weight: 400;
@@ -70,7 +76,9 @@ font-size: 16px;
 line-height: 26px;
 color: #444343;
 
+
 }
+
 
 /* My Plans */
 
@@ -98,7 +106,7 @@ color: #444343;
 
 }
 .plan-list:hover{
-    background-color:rgb(203, 198, 198);
+    background-color:rgb(230, 221, 221);
     
    
  
@@ -109,7 +117,8 @@ color: #444343;
  /* Special Box */
  .box{
     padding:130px 23px ;
-    background-image: url('../images/watch.png');
+    background-image: url('../images/watch.png'),url('../images/gradient2.png');
+    background-blend-mode:multiply;
     background-repeat: no-repeat;
     /* background-size: contain; */
     background-size: cover;
@@ -132,3 +141,62 @@ margin-left: 64px;
 
 
  }
+
+ /* Footer */
+ .foot{
+    display: flex;
+    padding-top: 130px;
+    padding-left: 230px;
+    background: #151414;
+    gap:331px;
+   
+
+ }
+
+
+
+
+ .foot-ul{
+   
+    display: flex;
+    list-style: none;
+    gap: 17px;
+    padding-bottom: 130px;
+ }
+
+ .Subscribe{
+    margin-right: 230px;
+    justify-content: left;
+    
+    
+ }
+ .btn3{
+
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #F15B22;
+padding: 20px 36px;
+
+ }
+
+ .emailbox{
+    width: 325px;
+height: 64px;
+background: #151414;
+border: 1px solid #FFFFFF;
+border-radius: 8px;
+
+
+ }
+ ::placeholder{
+    color: #F3F3F3;
+    padding-left: 21px;
+ }
+ 
