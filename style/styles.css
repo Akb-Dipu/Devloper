@@ -196,3 +196,60 @@ border-radius: 8px;
     padding-left: 21px;
  }
  
+ /* Extra >>practising dropdown */
+ 
+.dropdown{
+    display: none;
+}
+
+section div:hover .dropdown{
+    display: block;
+
+}
+.New{
+    text-align: center;
+}
+
+.btn1{
+    
+    background: #f25b5b;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #fafafa;
+padding: 20px 250px;
+margin-bottom: 10px;
+
+
+}
+.wish{
+    padding-top: 24px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+
+.wish:hover{
+    background-color: rgb(200, 245, 200);
+}
+.btn:hover{
+    background-color: #F3F3F3;
+    color:#f25b5b;
+
+}
+.btn2:hover{
+    background-color: #F15B22;
+    color: #F3F3F3;
+}
+.btn3:hover{
+    background-color: #F15B22;
+    color: #F3F3F3;
+}
