@@ -1,0 +1,86 @@
+
+/* font styles and design */
+.quote{
+
+ font-family: 'Work Sans';                                             
+font-weight: 700;
+font-size: 65px;
+color: #151414;
+padding-top:216px;
+
+}
+
+
+.lorem{
+    font-weight: 400;
+    font-size: 16px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+    color: #444343;
+    line-height: 26px;
+
+
+}
+
+.failure-headline{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+color: #151414;
+
+
+}
+
+.failure-subline{
+    padding-top: 24px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+}
+
+.example{
+    padding: 10px 10px;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 35px;
+text-align: center;
+color: #151414;
+
+
+
+
+}
+
+.to-do{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 29px;
+text-align: center;
+color: #737272;
+
+
+}
+
+.white-title{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+padding-bottom: 24px;
+padding-left: 64px;
+
+
+}
+

@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Header */
+
+header{
+
+    /* image */
+    background-image:url('../images/banner/banner2.png' ) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    /*  position */
+    text-align:right;
+}
+
+
+  /* Bonus number Question solution:  */
+.bonus{
+    
+      text-align: left;
+      padding-left: 800px;
+      padding-right: 30px;
+
+}
+/* Button Design */
+.btn{
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    
+    background: #F15B22;
+    font-weight: 600;
+    font-size: 20px; 
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+    margin-bottom:165px ;
+}
+
+/* Main Section */
+
+/* My failure of previous year */
+
+main{
+   padding: 130px 230px;
+
+}
+
+.failure{
+    gap: 87px;
+display: flex;
+}
+
+.failure-image{
+    
+    background-blend-mode: color;
+    background-color: rgb(4, 16, 16);
+
+}
+.list{
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #444343;
+
+}
+
+/* My Plans */
+
+.plans{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+
+}
+.planbox{
+    
+    list-style: none;
+    display: inline;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.plan-list{
+    
+   padding: 30px 30px;
+
+   
+
+}
+.plan-list:hover{
+    background-color:rgb(203, 198, 198);
+    
+   
+ 
+    
+ 
+ }
+
+ /* Special Box */
+ .box{
+    padding:130px 23px ;
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: cover;
+    background-position: center;
+ }
+
+ .btn2{
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+color: #F15B22;
+padding: 20px 36px;
+margin-left: 64px;
+
+
+ }
