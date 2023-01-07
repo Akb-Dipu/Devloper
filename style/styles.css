@@ -9,12 +9,12 @@
 /* Header */
 
 header{
-
+    display: flex;
+    gap: 60%;
     /* image */
     background-image:url('../images/banner/banner2.png' ) ;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     /*  position */
     text-align:right;
 }
@@ -22,11 +22,7 @@ header{
 
   /* Bonus number Question solution:  */
 .bonus{
-    
       text-align: left;
-      padding-left: 800px;
-      padding-right: 30px;
-
 }
 /* Button Design */
 .btn{
